@@ -32,3 +32,4 @@ y = torch.randn(2, 3, 4)
 A = torch.tensor([[1, 3, 5], [2, 4, 6]])
 print(A)
 
+print(A.shape)
