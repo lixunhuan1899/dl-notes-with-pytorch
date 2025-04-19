@@ -32,4 +32,14 @@ y = torch.randn(2, 3, 4)
 A = torch.tensor([[1, 3, 5], [2, 4, 6]])
 print(A)
 
-print(A.shape)
+dim1, dim2 = A.size()
+np_arr = np.array([[1, 2], [3, 5]])
+tensor_from_np = torch.from_numpy(np_arr)
+
+
+
+print(tensor_from_np)
+
+
+
+
